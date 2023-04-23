@@ -8,20 +8,46 @@
   </head>
   <body>
     <a href="index.html">Home</a>
+    <h3>Search Reddit!</h3>
     <form action="https://www.reddit.com/search">
       <!-- name = q because see url - not query they have 'q'  -->
       <input type="text" name="q" />
       <button>Search Reddit</button>
     </form>
+    <h3>Search Google!</h3>
     <form action="https://www.google.com/search">
       <input type="text" name="q" />
       <button>Search Google!</button>
     </form>
+    <h3>Search Youtube!</h3>
     <form action="https://www.youtube.com/results">
       <!-- name criterai depends on url and website requirement compare name above and below -->
       <input type="text" name="search_query" />
-      <!-- <button>Search Youtube!</button> -->
+      <button>Search Youtube!</button>
       <!-- without button also it works , type text and press enter -->
+    </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I Agree to everything.</label>
+      <p>
+        <label for="s">Small:</label>
+        <input type="radio" name="size" id="s" value="small" />
+        <label for="m">Medium:</label>
+        <input type="radio" name="size" id="m" />
+        <label for="l">Large</label>
+        <input type="radio" name="size" id="l" />
+      </p>
+      <p>
+        <label for="meal">Please select a meal!</label>
+        <select name="meal" id="meal">
+          <option value="dal">Dal</option>
+          <option value="roti" selected>Roti</option>
+          <option value="paneer">Paneer</option>
+        </select>
+      </p>
+      <button>Submit</button>
     </form>
   </body>
 </html>
