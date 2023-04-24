@@ -69,3 +69,10 @@ h2 + button {
 footer > a {
   color: aqua;
 }
+
+input[type="password"] {
+  color: greenyellow;
+}
+section[class="post"] {
+  background-color: lime;
+}
