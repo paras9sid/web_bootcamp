@@ -39,3 +39,16 @@ h2 {
   background-color: #db7f8e;
   font-size: 20px;
 }
+/* all anchor tag color change at once */
+/* a {
+  color: red;
+} */
+
+/* descendant selector */
+span a {
+  color: red;
+}
+
+footer a {
+  color: #fab2ea;
+}
