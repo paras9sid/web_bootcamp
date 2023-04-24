@@ -1,3 +1,13 @@
 h2 {
-  color: red;
+  color: teal;
+  background-color: plum;
+}
+button {
+  color: #dfff00;
+  background-color: #cd5c5c;
+}
+
+p {
+  color: olive;
+  background-color: rgb(100, 50, 20);
 }
