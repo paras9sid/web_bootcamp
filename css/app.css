@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
   color: teal;
   background-color: plum;
 }
@@ -10,4 +10,27 @@ button {
 p {
   color: olive;
   background-color: rgb(100, 50, 20);
+} */
+
+/* selector.html file codes below */
+
+/* selecting everything */
+* {
+  /* color: pink; */
+  /* background-color: aqua; */
+}
+body {
+  background-color: #f1faee;
+}
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+h1,
+h2 {
+  color: magenta;
 }
