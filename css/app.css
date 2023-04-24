@@ -52,3 +52,20 @@ span a {
 footer a {
   color: #fab2ea;
 }
+
+/* adjacent selector */
+
+/* input + button {
+  background-color: #1d3557;
+} */
+
+h2 + button {
+  font-size: 20px;
+  /* background-color: #db7f8e; */
+}
+
+/* direct child */
+
+footer > a {
+  color: aqua;
+}
