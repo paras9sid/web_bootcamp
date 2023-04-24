@@ -4,6 +4,11 @@ h1 {
   font-weight: 400;
   text-decoration: blue underline wavy;
   letter-spacing: 15px;
+  font-size: 100px;
+  /* font-family: sans-serif; */
+  /* font-family: "Gill Sans Extrabold", sans-serif; */
+  /* font-family: fantasy; */
+  font-family: monospace;
 }
 h2 {
 }
