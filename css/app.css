@@ -87,10 +87,6 @@ footer a:hover {
   color: white;
 } */
 
-.post button:hover {
-  background-color: #830a48;
-  color: white;
-}
 a:active {
   color: black;
 }
@@ -109,4 +105,19 @@ p::first-line {
 }
 p::selection {
   background-color: #fab2ea;
+}
+
+/* specificity */
+
+.post button:hover {
+  background-color: white;
+  color: black;
+}
+button:hover {
+  background-color: #830a48;
+  color: white;
+  font-size: 20px;
+}
+#signup {
+  background-color: red;
 }
