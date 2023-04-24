@@ -73,6 +73,31 @@ footer > a {
 input[type="password"] {
   color: greenyellow;
 }
-section[class="post"] {
+/* section[class="post"] {
   background-color: lime;
+} */
+footer a:hover {
+  color: orange;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+/* button:hover {
+  background-color: #830a48;
+  color: white;
+} */
+
+.post button:hover {
+  background-color: #830a48;
+  color: white;
+}
+a:active {
+  color: black;
+}
+.post button:active {
+  background-color: aquamarine;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #1d3557;
 }
