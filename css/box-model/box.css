@@ -3,9 +3,15 @@ div {
   height: 200px;
   background-color: aqua;
 }
+body {
+  margin: 0;
+}
 h1 {
   background-color: blue;
   width: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 0;
 }
 #one {
   background-color: antiquewhite;
@@ -15,6 +21,7 @@ h1 {
   border: 5px black solid;
   /* box-sizing: border-box; */
   border-radius: 2%;
+  margin: 0;
 }
 #two {
   background-color: aquamarine;
@@ -22,7 +29,14 @@ h1 {
   border: 3px dashed green;
   border-left-style: solid;
   border-radius: 50%;
+  padding-right: 50px;
 }
 #three {
   background-color: brown;
+  padding: 5;
+  margin: 10px;
+}
+button {
+  /* padding: 20px; */
+  padding: 0px 10px;
 }
