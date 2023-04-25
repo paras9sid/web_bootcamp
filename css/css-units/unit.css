@@ -1,0 +1,25 @@
+section {
+  background-color: aquamarine;
+  width: 800px;
+  height: 800px;
+}
+
+div {
+  background-color: blue;
+  width: 50%; /*ref to parent dimensions*/
+  height: 50%; /*ref to parent dimensions*/
+}
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%; /* ref to own element not parent */
+}
+article {
+  font-size: 20px;
+}
+h2 {
+  font-size: 2em; /*wice the size of parent articly font-size*/
+}
+p {
+  font-size: 1em;
+}
