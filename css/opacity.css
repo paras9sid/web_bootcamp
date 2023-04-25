@@ -1,4 +1,4 @@
-section {
+/* section {
   height: 500px;
   width: 500px;
   background-color: magenta;
@@ -7,7 +7,7 @@ section {
 #rgba {
   width: 50%;
   height: 50%;
-  /* alpha - last arg in rgba is for transparency/opacity */
+  /* alpha - last arg in rgba is for transparency/opacity 
   background-color: rgb(255, 255, 255, 0.7);
 }
 
@@ -16,4 +16,42 @@ section {
   height: 50%;
   background-color: yellow;
   opacity: 0.3;
+} */
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+
+#middle {
+  background-color: blue;
+}
+#static #middle {
+  position: static;
+  top: 100px;
+}
+
+#relative #middle {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  /* left: -100px; */
+}
+#absolute {
+  position: relative;
+}
+#absolute #middle {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#fixed #middle {
+  position: fixed;
+  top: 0;
+  left: 400px;
 }
