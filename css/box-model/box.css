@@ -1,18 +1,18 @@
-div {
+/* div {
   width: 200px;
   height: 200px;
   background-color: aqua;
-}
+} */
 body {
   margin: 0;
 }
-h1 {
+/* h1 {
   background-color: blue;
   width: 100px;
   padding-left: 100px;
   padding-top: 50px;
   margin: 0;
-}
+} */
 #one {
   background-color: antiquewhite;
   /* border-width: 5px;
@@ -39,4 +39,45 @@ h1 {
 button {
   /* padding: 20px; */
   padding: 0px 10px;
+}
+/* block level ements by default */
+/* h1 {
+  background-color: palegoldenrod;
+  border: 1px solid black;
+  /* making them inline level element intentionally 
+  display: inline;
+}
+/* inline level elemenst by default 
+span {
+  background-color: paleturquoise;
+  border: 1px solid black;
+  /* intentionally making thme blcok level element 
+  display: block;
+} */
+
+span {
+  background-color: violet;
+  border: 1px solid black;
+  width: 500px; /* not working in inline level elements directly */
+  padding: 10px; /* working */
+  margin: 50px;
+}
+
+h1 {
+  background-color: green;
+  border: 1px solid black;
+  width: 300px; /*respected */
+  padding: 50px; /*respected */
+  margin: 50px; /*respected */
+  display: none; /* will show in elements inspect but not in browser*/
+}
+div {
+  height: 200px;
+  width: 200px; /*respected */
+  background-color: olivedrab;
+  border: 5px solid black;
+  /* want all divs in one row */
+  display: inline-block;
+  margin: 50px; /*respected */
+  padding: 50px; /*respected */
 }
