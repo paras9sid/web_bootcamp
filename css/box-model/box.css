@@ -7,3 +7,22 @@ h1 {
   background-color: blue;
   width: 100px;
 }
+#one {
+  background-color: antiquewhite;
+  /* border-width: 5px;
+  border-color: black;
+  border-style: solid; */
+  border: 5px black solid;
+  /* box-sizing: border-box; */
+  border-radius: 2%;
+}
+#two {
+  background-color: aquamarine;
+  border-color: blueviolet;
+  border: 3px dashed green;
+  border-left-style: solid;
+  border-radius: 50%;
+}
+#three {
+  background-color: brown;
+}
