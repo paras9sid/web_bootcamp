@@ -6,7 +6,7 @@ section {
 
 div {
   background-color: blue;
-  width: 50%; /*ref to parent dimensions*/
+  width: 70%; /*ref to parent dimensions*/
   height: 50%; /*ref to parent dimensions*/
 }
 h1 {
