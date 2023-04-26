@@ -13,19 +13,33 @@ h1 {
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
   /* flex-direction: column-reverse; */
   /* justify-content: center; */
   /* justify-content: space-evenly; */
   /* flex-direction: column; */
-  justify-content: flex-start;
-  /* flex-wrap: wrap; */
-  flex-wrap: wrap-reverse;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: flex-start;
+  /* align-items: baseline; */
+  /* align-items: flex-end; */
+  /* flex-wrap: wrap-reverse; */
+  /* align-content: center; */
 }
 #container div {
-  width: 600px;
+  width: 200px;
   height: 200px;
   text-align: center;
+  /* font-size: 4em; */
+}
+div:nth-of-type(2) {
+  align-self: center;
+}
+div:nth-of-type(3) {
+  align-self: flex-end;
 }
