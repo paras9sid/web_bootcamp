@@ -7,8 +7,16 @@ h1 {
 }
 nav {
   font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
 }
-
+ul {
+  border: 1px solid red;
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
 ul,
 li {
   display: inline;
@@ -52,8 +60,58 @@ h1 {
   }
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
   body {
     background-color: brown;
+  }
+} */
+/* https://devfacts.com/media-query-breakpoints-for-lightning-component/ 
+
+info about media queries to implement as per size in px
+min-width
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+max-width
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+*/
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5em;
+  }
+  nav,
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3em;
   }
 }
