@@ -34,3 +34,23 @@ div:nth-of-type(1) {
 div:nth-of-type(5) {
   flex-grow: 2;
 }
+
+/* h2 example */
+main {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex;
+}
+
+main .sidebar {
+  background-color: aqua;
+  /* border: 2px solid white; */
+  flex: 1 2 300px;
+}
+
+main .maincontent {
+  background-color: blueviolet;
+  flex: 2 1 800px;
+}
